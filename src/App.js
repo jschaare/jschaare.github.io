@@ -6,6 +6,7 @@ import './static/css/main.scss';
 
 const About = lazy(() => import('./pages/About'));
 const Index = lazy(() => import('./pages/Index'));
+const Resume = lazy(() => import('./pages/Resume'));
 const NotFound = lazy(() => import('./pages/NotFound'));
 
 const App = () => (
@@ -14,6 +15,7 @@ const App = () => (
       <Switch>
         <Route exact path="/" component={Index} />
         <Route path="/about" component={About} />
+        <Route path="/resume" component={Resume} />
         <Route component={NotFound} status={404} />
       </Switch>
     </Suspense>

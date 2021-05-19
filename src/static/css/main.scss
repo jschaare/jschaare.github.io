@@ -38,7 +38,7 @@
 		}
 	}
 
-	$size-wrapper-pad-tb: 6em;
+	$size-wrapper-pad-tb: 3em;
 	$size-wrapper-pad-lr: 3em;
 
 // Reset.
@@ -444,6 +444,12 @@
 	section, article {
 		&.special {
 			text-align: center;
+		}
+	}
+
+	canvas {
+		&.react-pdf__Page__canvas {
+			margin: 0 auto;
 		}
 	}
 
@@ -1553,7 +1559,7 @@
 		background-position: center center;
 		background-size: cover;
 		box-shadow: 0 0.25em 0.5em 0 rgba(0,0,0,0.25);
-		min-height: 100vh;
+		min-height: 100%;
 		position: relative;
 		text-align: center;
 		z-index: (_misc(max-spotlight) + 1);
@@ -1565,7 +1571,7 @@
 			vertical-align: middle;
 			width: 1%;
 		}
-
+		
 		&:after {
 			//@include vendor('background-image', ('linear-gradient(top, #{_palette(bg-transparent)}, #{_palette(bg-transparent)})', 'url("images/overlay.png");'));
 			content: '';
@@ -1684,7 +1690,7 @@
 
 	@include breakpoint('<=large') {
 
-		$size-wrapper-pad-tb: 4.5em;
+		$size-wrapper-pad-tb: 2.5em;
 		$size-wrapper-pad-lr: 2.5em;
 
 		/* Basic */
@@ -1750,7 +1756,7 @@
 
 	@include breakpoint('<=medium') {
 
-		$size-wrapper-pad-tb: 4.5em;
+		$size-wrapper-pad-tb: 3em;
 		$size-wrapper-pad-lr: 2.5em;
 
 		/* Basic */
@@ -1850,7 +1856,7 @@
 
 	@include breakpoint('<=small') {
 
-		$size-wrapper-pad-tb: 3.25em;
+		$size-wrapper-pad-tb: 3em;
 		$size-wrapper-pad-lr: 1.5em;
 
 		/* Basic */

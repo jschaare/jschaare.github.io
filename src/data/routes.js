@@ -8,6 +8,10 @@ const routes = [
     label: 'About',
     path: '/about',
   },
+  {
+    label: 'Resume',
+    path: '/resume',
+  },
 ];
   
 export default routes;

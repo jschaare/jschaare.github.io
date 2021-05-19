@@ -12,7 +12,7 @@ const MobileBar = () => {
         <div id="mobileBar">
             <div id="titleBar">
                 <ul>
-                    <li onClick={() => setOpen(!open)} className="toggle"> </li>
+                    <li onClick={() => setOpen(!open)} className="toggle"></li>
                     <li className="title">
                         {routes.filter((l) => l.index).map((l) => (
                             <Link key={l.label} to={l.path}>{l.label}</Link>
@@ -40,32 +40,3 @@ const MobileBar = () => {
 };
 
 export default MobileBar;
-
-/*
-
-        <div id="mobileBar">
-            <div id="titleBar">
-                <span onClick={() => setOpen(!open)} className="toggle"> </span>
-                <span className="title">
-                    {routes.filter((l) => l.index).map((l) => (
-                        <Link key={l.label} to={l.path}>{l.label}</Link>
-                    ))}
-                </span>
-            </div>
-            <div id="navPanel">
-                <Suspense fallback={<></>}>
-                    <Menu left isOpen={open}>
-                        <ul>
-                            {routes.map((l) => (
-                                <li key={l.label}>
-                                    <Link to={l.path} onClick={() => setOpen(!open)}>
-                                        <h3 className="link depth-0">{l.label}</h3>
-                                    </Link>
-                                </li>
-                            ))}
-                        </ul>
-                    </Menu>
-                </Suspense>
-            </div>
-        </div>
-*/
