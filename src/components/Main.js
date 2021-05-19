@@ -10,7 +10,6 @@ const Main = (props) => (
       {props.children}
     </div>
     <Footer />
-    {/* <MobileBar /> */}
   </div>
 );
 
