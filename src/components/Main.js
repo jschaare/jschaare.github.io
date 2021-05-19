@@ -2,6 +2,7 @@ import React from 'react';
 import Footer from './Footer';
 
 import NavBar from './NavBar';
+import MobileBar from './MobileBar';
 
 const Main = (props) => (
     <div id="page-wrapper">
@@ -10,6 +11,7 @@ const Main = (props) => (
             {props.children}
         </div>
         <Footer />
+        <MobileBar />
     </div>
 );
 
