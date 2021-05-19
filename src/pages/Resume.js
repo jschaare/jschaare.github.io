@@ -8,20 +8,16 @@ pdfjs.GlobalWorkerOptions.workerSrc = `//cdnjs.cloudflare.com/ajax/libs/pdf.js/$
 
 const Resume = () => (
   <Main>
-    <div className="wrapper">
-      <div className="container">
-        <header className="major">
-          <h2>Resume</h2>
-        </header>
-        <section>
-          <a href={resumePdf} target = "_blank" rel="noreferrer">
-            <Document file={resumePdf}>
-              <Page pageNumber={1} />
-            </Document>
-          </a>
-        </section>
-      </div>
-    </div>
+    <article id="resume" className="active">
+      <h2 className="major">Resume</h2>
+      <span>
+        <a href={resumePdf} target = "_blank" rel="noreferrer">
+          <Document file={resumePdf}>
+            <Page pageNumber={1} />
+          </Document>
+        </a>
+      </span>
+    </article>
   </Main>
 );
 

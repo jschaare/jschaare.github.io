@@ -1,18 +1,17 @@
 import React from 'react';
 import Footer from './Footer';
 
-import NavBar from './NavBar';
-import MobileBar from './MobileBar';
+import Header from './Header';
 
 const Main = (props) => (
-	<div id="page-wrapper">
-		<NavBar />
-		<div id="main">
-			{props.children}
-		</div>
-		<Footer />
-		<MobileBar />
-	</div>
+  <div id="wrapper">
+    <Header />
+    <div id="main">
+      {props.children}
+    </div>
+    <Footer />
+    {/* <MobileBar /> */}
+  </div>
 );
 
 export default Main;

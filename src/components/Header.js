@@ -3,14 +3,19 @@ import { Link } from 'react-router-dom';
 
 import routes from '../data/routes';
 
-const NavBar = () => (
+const Header = () => (
   <header id="header">
-    <h1 className="links-index">
-      {routes.filter((l) => l.index).map((l) => (
-        <Link key={l.label} to={l.path}>{l.label}</Link>
-      ))}
-    </h1>
-    <nav className="links">
+    <div className="content">
+      <div className="inner">
+        <h1>
+          {routes.filter((l) => l.index).map((l) => (
+            <Link key={l.label} to={l.path}>{l.label}</Link>
+          ))}
+        </h1>
+        <p>Software Engineer</p>
+      </div>
+    </div>
+    <nav>
       <ul>
         {routes.filter((l) => !l.index).map((l) => (
           <li key={l.label}>
@@ -22,4 +27,4 @@ const NavBar = () => (
   </header>
 );
 
-export default NavBar;
+export default Header;

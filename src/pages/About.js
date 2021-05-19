@@ -8,16 +8,12 @@ const markdown = raw('../data/about.md');
 
 const About = () => (
   <Main>
-    <div className="wrapper">
-      <div className="container">
-        <header className="major">
-          <h2>About Me</h2>
-        </header>
-        <section>
-          <ReactMarkdown children={markdown}/>
-        </section>
-      </div>
-    </div>
+    <article id="about" className="active">
+      <h2 className="major">About Me</h2>
+      <section>
+        <ReactMarkdown children={markdown}/>
+      </section>
+    </article>
   </Main>
 );
 
