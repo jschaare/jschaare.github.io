@@ -1,0 +1,2 @@
+(this["webpackJsonpjschaare.github.io"]=this["webpackJsonpjschaare.github.io"]||[]).push([[7],{238:function(s,e,t){"use strict";t.r(e);t(0);var a=t(14),c=t.p+"static/media/me.12b0b814.jpg",i=t(1);e.default=function(){return Object(i.jsxs)(a.a,{children:[Object(i.jsx)("p",{}),Object(i.jsx)("span",{className:"image",children:Object(i.jsx)("img",{src:c,alt:""})})]})}}}]);
+//# sourceMappingURL=7.9dc52d23.chunk.js.map
