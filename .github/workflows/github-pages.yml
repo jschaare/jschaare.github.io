@@ -4,7 +4,7 @@ on:
   push:
     branches: [ master ]
 jobs:
-  depoy:
+  deploy:
     runs-on: ubuntu-latest
     steps:
     - name: Checkout
@@ -16,7 +16,7 @@ jobs:
       with:
         node-version: 14.x
     - name: Install
-      run: npm ci
+      run: rm -rf node_modules && yarn install --frozen-lockfile
     - name: Build and Deploy
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
