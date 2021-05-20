@@ -9,7 +9,7 @@
 	#main {
 		@include vendor('flex-grow', '1');
 		@include vendor('flex-shrink', '1');
-		@include vendor('display', 'flex');
+		//@include vendor('display', 'flex');
 		@include vendor('align-items', 'center');
 		@include vendor('justify-content', 'center');
 		@include vendor('flex-direction', 'column');
@@ -75,6 +75,10 @@
 						background-color: _palette(border-bg-alt);
 					}
 				}
+			}
+
+			.major {
+				margin: 0 auto 2rem;
 			}
 
 			.react-pdf__Page__canvas {

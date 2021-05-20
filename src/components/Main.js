@@ -1,10 +1,13 @@
 import React from 'react';
+
+import GoogleAnalytics from './GoogleAnalytics';
+import Header from './Header';
 import Footer from './Footer';
 
-import Header from './Header';
 
 const Main = (props) => (
   <div id="wrapper">
+    {/* <GoogleAnalytics /> */}
     <Header />
     <div id="main">
       {props.children}

@@ -15,8 +15,4 @@ I am a Software Engineer with interests ranging from Linux Kernel to Machine Lea
 - Japanese language, food, and culture
 - Hanging out with my friends on Discord
 - Playing video games
-    - Legend of Zelda
-    - Old School Runescape
-    - League of Legends
-    - Osu
-    - Etc.
+- Dark themes on everything

@@ -14,6 +14,6 @@ const contactInfo = [
         label: 'Email',
         iconClass: 'icon solid alt fa-envelope',
     },
-  ];
+];
   
-  export default contactInfo;
+export default contactInfo;
