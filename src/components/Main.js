@@ -1,9 +1,8 @@
 import React from 'react';
 
-import GoogleAnalytics from './GoogleAnalytics';
 import Header from './Header';
 import Footer from './Footer';
-
+// import GoogleAnalytics from './GoogleAnalytics';
 
 const Main = (props) => (
   <div id="wrapper">
