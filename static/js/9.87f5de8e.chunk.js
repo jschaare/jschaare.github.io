@@ -1,2 +1,0 @@
-(this["webpackJsonpjschaare.github.io"]=this["webpackJsonpjschaare.github.io"]||[]).push([[9],{236:function(c,s,t){"use strict";t.r(s);t(0);var e=t(14),i=t(1);s.default=function(){return Object(i.jsx)(e.a,{children:Object(i.jsxs)("article",{id:"projects",className:"active",children:[Object(i.jsx)("h2",{className:"major",children:"Projects"}),Object(i.jsxs)("p",{children:["Under construction. For now, just visit ",Object(i.jsx)("a",{href:"https://github.com/jschaare",children:"my github."})]})]})})}}}]);
-//# sourceMappingURL=9.87f5de8e.chunk.js.map

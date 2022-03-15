@@ -1,2 +1,0 @@
-(this["webpackJsonpjschaare.github.io"]=this["webpackJsonpjschaare.github.io"]||[]).push([[8],{237:function(e,t,s){"use strict";s.r(t);s(0);var c=s(9),n=s(1);t.default=function(){return Object(n.jsxs)("div",{className:"page-not-found",children:[Object(n.jsx)("h1",{children:"Page Not Found"}),Object(n.jsxs)("p",{children:["Return to the ",Object(n.jsx)(c.b,{to:"/",children:"main page"})]})]})}}}]);
-//# sourceMappingURL=8.fd98c2a8.chunk.js.map
