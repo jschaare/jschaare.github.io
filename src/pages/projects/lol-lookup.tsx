@@ -3,7 +3,7 @@ import { Badge, Container, Image, Link, Text } from "@chakra-ui/react";
 export function LolLookup() {
     return (
         <Container>
-            <Image src="/images/heehawbot.jpg" />
+            <Image src="/images/lol-lookup.jpg" />
             <Badge>Rust</Badge>
             <Badge>React</Badge>
             <Badge>Tauri</Badge>
