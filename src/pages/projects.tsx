@@ -8,6 +8,7 @@ import { IPost } from "../types/post";
 import { HeehawBot } from "./projects/heehaw-bot";
 import { LolLookup } from "./projects/lol-lookup";
 import { MyWebsite } from "./projects/my-website";
+import { Rumble } from "./projects/rumble";
 
 
 function Projects() {
@@ -53,7 +54,7 @@ function Projects() {
                     <PostGridItem
                         thumbnail={"/images/rumble.jpg"}
                         title={"Rumble"}
-                        click={() => openProjectModal({ title: "Rumble", children: <MyWebsite /> })}
+                        click={() => openProjectModal({ title: "Rumble", children: <Rumble /> })}
                     >
                         API wrapper for live LoL game data
                     </PostGridItem>
